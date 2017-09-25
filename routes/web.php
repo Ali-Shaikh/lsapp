@@ -13,4 +13,15 @@
 
 Route::get('/', function () {
     return view('welcome');
+   //return "Hello World!";
+});
+
+Route::get('/hello', function () {
+    //return view('welcome');
+    return "Hello World!";
+});
+
+Route::get('/html', function () {
+    //return view('welcome');
+    return "<h1>Hello World!</h1>";
 });
