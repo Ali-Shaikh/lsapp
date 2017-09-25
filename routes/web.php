@@ -11,15 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-   //return "Hello World!";
-});
-
-Route::get('/about', function () {
-    return view('pages.about');
-});
-
+/*
 Route::get('/hello', function () {
     //return view('welcome');
     return "Hello World!";
@@ -40,4 +32,12 @@ Route::get('/users/{id}', function ($id) {
 Route::get('/users/{id}/{name}', function ($id,$name) {
    return "This is User $name with an ID of $id";
 //    return 'This is User ' . $name . ' with an ID of ' . $id;
+});
+
+*/
+
+Route::get('/', 'PagesController@index');
+
+Route::get('/about', function () {
+    return view('pages.about');
 });

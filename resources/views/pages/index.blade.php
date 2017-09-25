@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<h1>About</h1>
-<p>This is the about page.</p>
+<h1>Welcome to Laravel - Ali Shaikh</h1>
+<p>This is the laravel app for the YouTube series "Laravel From Scratch".</p>
 </body>
 </html>
